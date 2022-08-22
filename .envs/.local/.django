@@ -6,8 +6,14 @@ IPYTHONDIR=/app/.ipython
 # ------------------------------------------------------------------------------
 REDIS_URL=redis://redis:6379/0
 
+# Postgresql
+# ------------------------------------------------------------------------------
+DATABASE_URL=postgres://zUKaTqmoIvPThREaiOGpcYMEFZnCucHq:rlvJzs4Sjmfm8MEtxtQCy84sXkN1oD1n1i3E8ciM7qp8wBGGzjeglpGXwpXFi9au@postgres/ecommerce
+
 # Celery
 # ------------------------------------------------------------------------------
+CELERY_BROKER_URL = redis://ecommerce-local-redis:6579/0
+
 
 # Flower
 CELERY_FLOWER_USER=hPesGSURruUodJSXzUcvGGogRnoTAtCW
